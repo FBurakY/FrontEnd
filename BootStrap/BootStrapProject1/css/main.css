@@ -1,0 +1,930 @@
+html,
+body,
+
+#cover {    
+    height:%10;
+    background: url('../image/Main.jpg') no-repeat center fixed;   
+    background-size: cover;    
+}
+.fixed-top {    
+    max-width: 1190px;    
+    margin: 140px auto; 
+    /* */
+    transition: 0.2s all linear;
+}
+h1{    
+    margin-top: 370px;    
+    font-family: 'Kirang Haerang', cursive;
+    color: #F7F9F9;
+    font-size: 45px;
+}
+.btn-primary{    
+   border-style:none;
+   text-transform: uppercase;
+   font-family: 'Audiowide', cursive;
+   padding: 5px 25px;    
+}
+.btn-primary:hover {    
+   background-color:#F5B041;    
+   color:#F4F6F7;
+}
+a.nav-link{
+    color:#FDFEFE !important;
+    font-family: 'Monoton', cursive;
+    font-size: 25px;
+    transition: color 1.5s ease ;     
+}
+a.nav-link:hover{
+    color:#F4D03F !important;
+    font-family: 'Monoton', cursive;
+    font-size: 25px;    
+}
+#services {    
+    padding: 90px 0px; 
+    border-radius: 900px;
+}
+.services-top h4{    
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+    font-weight: 700px;
+    color: #F8F9F9;     
+}
+.services-top p{
+   font-family: 'Bad Script', cursive;
+   font-size: 50px;
+   color:#ECF0F1;
+   margin-bottom: 70px;  
+} 
+.item-circules{
+    border: 5px solid #F2F3F4;
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 200px;
+    
+}
+.services-content i {    
+    color: #FEF9E7;
+    /*line-height asagidan ve yukarıdan tasarımı ortalıyoruz*/
+    line-height: 90px;    
+}
+.services-content h3, .portfolio-top h3{    
+   font-family: 'Fredoka One', cursive;
+   font-size: 35px;
+   margin-top: 1px; 
+    
+}
+.services-content p{    
+   font-family: 'Bad Script', cursive;
+   font-size: 25px;
+   color: black;
+}
+#portfolio{    
+    background-color:antiquewhite;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+    border-radius: 20px;
+}
+.portfolio-top h2{
+   font-family: 'Fredoka One', cursive;
+   font-size: 40px;
+   padding-top: 0px;
+   text-align: center;
+   margin-bottom: 20px;  
+}
+.portfolio-top p{    
+   font-family: 'Bad Script', cursive;
+   font-size: 22px;
+   color: black;    
+}
+.card {    
+    border-style: none;
+}
+.portfolio-content .row{    
+    margin-bottom: 70px;    
+}
+.card-title{    
+   font-family: 'Fredoka One', cursive;
+   font-size: 30px;
+   margin-top: 10px;
+   margin-left: 5px;
+}
+.image{    
+    width: 100px;
+    height: 90px;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+.portfolio-content .card{
+    
+   padding-bottom:1px;
+   height: 380px;  
+}
+.btn1{    
+   margin-top: 48px;        
+}
+#team{
+    
+    padding-top: 90px;
+    background-color: aliceblue; 
+    margin-bottom: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+    border-radius: 20px;
+}
+.team-top{
+   font-family: 'Fredoka One', cursive;
+   font-size: 40px;
+   text-align: center;  
+   margin-bottom: 70px;  
+}
+.team-circle h4,h5{
+ font-family: 'Bad Script', cursive;
+ font-size: 22px;
+ color: black;      
+}
+.team-circle p{
+ font-family: 'Monoton', cursive;
+ font-size: 22px;
+ color: black;      
+}
+.team-circle{
+    width: 220px;
+    height: 220px;
+    background-color: black;
+    border-radius: 220px;
+    margin: 0 auto;
+    border: 6px solid #FFC300 ; 
+    margin-bottom: 20px;
+}
+.social-icons{
+     /*Noktaları siliyoruz ...*/
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.social-icon{
+     /*Iconları yataylıyoruz */
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+    /*Iconları Dairelerini oluşturalım */
+}
+.social-icon .fa{
+    border: 2px solid #000000;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    line-height: 30px;
+}
+.team-p p{
+   margin: 50px auto;
+   padding-bottom: 20px;
+   font-family: 'MedievalSharp', cursive;
+   text-align: center;
+}
+#patner{
+    
+    padding: 60px 0;
+    background-color: #EBF5FB; 
+    margin-bottom: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.Img{    
+    height: 200px;
+    width: 500px;
+}
+#Contact{    
+ padding: 60px 0;
+ background-color: #F2F3F4;
+ margin-bottom: 30px;
+ margin-left: 120px;
+ margin-right: 120px;     
+ background-size: cover;  
+ border-radius: 20px;   
+}
+.contant-top h4{    
+   font-family: 'Fredoka One', cursive;
+   font-size: 40px;
+   text-align: center;
+   margin-bottom: 70px; 
+}
+.contant-top p{    
+   margin: 20px auto;
+   padding-bottom: 20px;
+   font-family: 'MedievalSharp', cursive;
+   text-align: center;
+}
+#name , #email , #subject{
+    width: 90%;
+    height: 40px;
+    margin-bottom:  26px;    
+    border-style: none;
+    border-radius: 12px;
+    padding-left: 20px;
+    margin-left: 5%;
+}
+textarea{
+    width: 90%;
+    height: 170px;
+    border-style: none;
+    border-radius: 12px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-left: 5%;
+}
+.golden-form-element{
+    font-family: 'Jua', sans-serif;
+    font-size: 22px;
+    color: black;    
+}
+#footer{    
+    padding: 20px 0;
+    
+}
+#footer p{    
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    font-weight:600px;
+    color: black;
+    line-height: 40px;
+}
+.company-social-icons{
+    /*Noktaları siliyoruz ...*/
+    list-style-type: none;
+    /*Bootstrap DEfault değerlerini sıfırlıyoruz */
+    margin: 0;
+    padding: 0;
+}
+.company-social-icon{
+    /*Iconları aynı satırda göstermek istediğimiz için ...*/
+    display: inline;
+    padding-left: 9px;
+    padding-right: 9px;
+    color: #2A9EE4;        
+}
+.company-social-icon .fa{
+    /* */
+    width: 40px;
+    height: 40px;
+    /*Daire şeklinde ayarlıyoruz */
+    border-radius: 40px;
+    background-color: #F2F3F4;
+    /*Iconları ortalamak için */
+    line-height: 40px;    
+}
+.fixed-top.change-fix-top{
+    margin-top:0;
+    background-color: black;
+    max-width: 2000px;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 300px) { 
+
+    .navbar-collapse{
+        
+        background-color: rgba(0,0,0,0.2);
+        
+    }
+    .navbar-light .navbar-toggler{
+        border: 2px solid #F2F3F4;
+    }
+    h1{    
+    margin-top: 430px;  
+    font-size: 35px;
+    }
+    
+        
+    #services {    
+        padding: 90px 0px; 
+        border-radius: 900px;
+    }
+    .services-top h4{            
+        font-size: 30px;
+        font-weight: 20px;          
+    }
+    .services-top p{       
+       font-size: 40px;
+       margin-bottom: 20px;  
+    } 
+    .item-circules{        
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        border-radius: 100px;
+
+    }
+    .services-content i { 
+        /*line-height asagidan ve yukarıdan tasarımı ortalıyoruz*/
+        line-height: 92px;    
+    }
+    .services-content h3, .portfolio-top h3{       
+       font-size: 25px;
+       margin-top: 9px; 
+
+    }
+    .services-content p{          
+       font-size: 22px;       
+    }
+    
+    #portfolio{           
+        padding: 30px 0px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 20px;
+    }
+    .portfolio-top h2{
+       
+       font-size: 30px;        
+       margin-bottom: 8px;  
+    }
+    .portfolio-top p{        
+       font-size: 23px;        
+    }
+    .card {    
+        border-style: none;
+    }
+    .portfolio-content .row{    
+        margin-bottom: 20px;    
+    }
+    .card-title{           
+       font-size: 23px;
+       margin-top: 5px;
+       margin-left: 1px;
+    }
+    .image{    
+        width: 50px;
+        height: 50px;
+        margin-top: 2px;
+        margin-left: 125px;
+    }
+    .portfolio-content .card{
+
+       padding-bottom:0px;
+       height: 450px;  
+    }
+    .btn1{    
+       margin-top: 93px;        
+    }
+
+    #team{
+
+        padding: 30px 0px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 20px;
+    }
+    .team-top{       
+       font-size: 20px;
+       text-align: center;  
+       margin-bottom: 20px;  
+    }
+    .team-circle h4,h5{     
+     font-size: 20px;         
+    }
+    .team-circle p{    
+     font-size: 20px;     
+    }
+    .team-circle{
+        width: 90px;
+        height: 90px;       
+        border-radius: 90px;
+        margin: 0 auto;         
+        margin-bottom: 10px;
+    }
+    .social-icons{
+         /*Noktaları siliyoruz ...*/
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }       
+    .team-p p{
+       margin: 30px auto;
+       padding-bottom: 10px;      
+    }
+    #Contact{    
+        padding: 30px 0px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 20px; 
+    }
+    .contant-top h4{        
+       font-size: 30px;      
+       margin-bottom: 20px; 
+    }
+    .contant-top p{    
+       margin: 20px auto;
+       padding-bottom: 10px;       
+       text-align: center;
+    }
+    #name , #email , #subject{
+        width: 90%;
+        height: 40px;
+        margin-bottom: 15px;    
+        border-style: none;        
+        padding-left: 10px; 
+    }
+    textarea{
+        width: 90%;
+        height: 150px;
+        border-style: none;
+        border-radius: 12px;
+        padding-left: 15px;
+        padding-top: 20px;
+        margin-left: 3%;
+    }
+    .golden-form-element{        
+        font-size: 20px;           
+    }
+    #footer{    
+        padding: 2px 0;
+
+    }
+    #footer p{            
+        font-size: 25px; 
+        line-height: 20px;
+    }
+    .company-social-icons{
+        /*Noktaları siliyoruz ...*/
+        list-style-type: none;
+        /*Bootstrap DEfault değerlerini sıfırlıyoruz */
+        margin: 0;
+        padding: 0;
+    }
+    .company-social-icon{
+        /*Iconları aynı satırda göstermek istediğimiz için ...*/
+        display: inline;
+        padding-left: px;
+        padding-right: 9px;               
+    }
+    .company-social-icon .fa{
+        /* */
+        width: 40px;
+        height: 40px;
+        /*Daire şeklinde ayarlıyoruz */
+        border-radius: 40px;
+        background-color: #F2F3F4;
+        /*Iconları ortalamak için */
+        line-height: 40px;    
+    }
+    
+}
+@media (min-width: 768px) { 
+        
+    #services {    
+        padding: 90px 0px; 
+        border-radius: 900px;
+    }
+    .services-top h4{    
+        font-family: 'Fredoka One', cursive;
+        font-size: 40px;
+        font-weight: 700px;
+        color: #F8F9F9;     
+    }
+    .services-top p{
+       font-family: 'Bad Script', cursive;
+       font-size: 50px;
+       color:#ECF0F1;
+       margin-bottom: 70px;  
+    } 
+    .item-circules{
+        border: 5px solid #F2F3F4;
+        width: 200px;
+        height: 100px;
+        margin: 0 auto;
+        border-radius: 200px;
+
+    }
+    .services-content i {    
+        color: #FEF9E7;
+        /*line-height asagidan ve yukarıdan tasarımı ortalıyoruz*/
+        line-height: 90px;    
+    }
+    .services-content h3, .portfolio-top h3{    
+       font-family: 'Fredoka One', cursive;
+       font-size: 35px;
+       margin-top: 1px; 
+
+    }
+    .services-content p{    
+       font-family: 'Bad Script', cursive;
+       font-size: 25px;
+       color: black;
+    }
+    
+    #portfolio{    
+        background-color:antiquewhite;
+        padding: 10px 0px;
+        margin-bottom: 30px;
+        margin-left: 120px;
+        margin-right: 120px;
+        border-radius: 20px;
+    }
+    .portfolio-top h2{
+       font-family: 'Fredoka One', cursive;
+       font-size: 40px;
+       padding-top: 10px;
+       text-align: center;
+       margin-bottom: 5px;  
+    }
+    .portfolio-top p{    
+       font-family: 'Bad Script', cursive;
+       font-size: 19px;
+       color: black;    
+    }
+    .card {    
+        border-style: none;
+    }
+    .portfolio-content .row{    
+        margin-bottom: 150px;    
+    }
+    .card-title{    
+       font-family: 'Fredoka One', cursive;
+       font-size: 20px;
+       margin-top: 8px;
+       margin-left: 5px;
+    }
+    .image{    
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 85px;
+    }
+    .portfolio-content .card{
+
+       padding-bottom:1px;
+       height: 455px;  
+    }
+    .btn1{    
+       margin-top: 93px;        
+    }
+
+    #team{
+
+        padding-top: 30px;       
+        margin-bottom: 30px;
+        margin-left: 120px;
+        margin-right: 120px;
+        border-radius: 20px;
+    }
+    .team-top{
+       font-family: 'Fredoka One', cursive;
+       font-size: 40px;
+       text-align: center;  
+       margin-bottom: 70px;  
+    }
+    .team-circle h4,h5{     
+     font-size: 19px;         
+    }
+    .team-circle p{    
+     font-size: 20px;     
+    }
+    .team-circle{
+        width: 140px;
+        height: 140px;       
+        border-radius: 140px;
+        margin: 0 auto;         
+        margin-bottom: 10px;
+    }
+    .social-icons{
+         /*Noktaları siliyoruz ...*/
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }       
+    .team-p p{
+       margin: 20px auto;
+       padding-bottom: 20px;      
+    }
+    #patner{
+
+        padding: 60px 0;
+        background-color: #EBF5FB; 
+        margin-bottom: 30px;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+    .Img{    
+        height: 200px;
+        width: 500px;
+    }
+    
+    #footer{    
+        padding: 20px 0;
+    }
+    #footer p{           
+        font-size: 20px;       
+        line-height: 30px;
+    }    
+    .company-social-icon{
+        /*Iconları aynı satırda göstermek istediğimiz için ...*/
+        display: inline;
+        padding-left: 5px;
+        padding-right: 5px;
+        color: #2A9EE4;        
+    }
+    .company-social-icon .fa{
+        /* */
+        width: 30px;
+        height: 30px;
+        /*Daire şeklinde ayarlıyoruz */
+        border-radius: 30px;        
+        /*Iconları ortalamak için */
+        line-height: 30px;    
+    }
+
+}
+@media (min-width: 992px) {        
+    
+    #services {    
+        padding: 90px 0px; 
+        border-radius: 900px;
+    }
+    .services-top h4{    
+        font-family: 'Fredoka One', cursive;
+        font-size: 40px;
+        font-weight: 700px;
+        color: #F8F9F9;     
+    }
+    .services-top p{
+       font-family: 'Bad Script', cursive;
+       font-size: 50px;
+       color:#ECF0F1;
+       margin-bottom: 70px;  
+    } 
+    .item-circules{
+        border: 5px solid #F2F3F4;
+        width: 200px;
+        height: 100px;
+        margin: 0 auto;
+        border-radius: 200px;
+
+    }
+    .services-content i {    
+        color: #FEF9E7;
+        /*line-height asagidan ve yukarıdan tasarımı ortalıyoruz*/
+        line-height: 90px;    
+    }
+    .services-content h3, .portfolio-top h3{    
+       font-family: 'Fredoka One', cursive;
+       font-size: 35px;
+       margin-top: 1px; 
+
+    }
+    .services-content p{    
+       font-family: 'Bad Script', cursive;
+       font-size: 25px;
+       color: black;
+    }
+    #portfolio{    
+        background-color:antiquewhite;
+        padding: 10px 0px;
+        margin-bottom: 30px;
+        margin-left: 120px;
+        margin-right: 120px;
+        border-radius: 20px;
+    }
+    .portfolio-top h2{
+       font-family: 'Fredoka One', cursive;
+       font-size: 40px;
+       padding-top: 0px;
+       text-align: center;
+       margin-bottom: 20px;  
+    }
+    .portfolio-top p{    
+       font-family: 'Bad Script', cursive;
+       font-size: 22px;
+       color: black;    
+    }
+    .card {    
+        border-style: none;
+    }
+    .portfolio-content .row{    
+        margin-bottom: 70px;    
+    }
+    .card-title{    
+       font-family: 'Fredoka One', cursive;
+       font-size: 30px;
+       margin-top: 10px;
+       margin-left: 5px;
+    }
+    .image{    
+        width: 100px;
+        height: 90px;
+        margin-top: 10px;
+        margin-left: 130px;
+    }
+    .portfolio-content .card{
+
+       padding-bottom:1px;
+       height: 380px;  
+    }
+    .btn1{    
+       margin-top: 48px;        
+    }
+    #team{
+
+        padding-top: 90px;
+        background-color: aliceblue; 
+        margin-bottom: 30px;
+        margin-left: 120px;
+        margin-right: 120px;
+        border-radius: 20px;
+    }
+    .team-top{
+       font-family: 'Fredoka One', cursive;
+       font-size: 40px;
+       text-align: center;  
+       margin-bottom: 70px;  
+    }
+    .team-circle h4,h5{
+     font-family: 'Bad Script', cursive;
+     font-size: 22px;
+     color: black;      
+    }
+    .team-circle p{
+     font-family: 'Monoton', cursive;
+     font-size: 22px;
+     color: black;      
+    }
+    .team-circle{
+        width: 220px;
+        height: 220px;
+        background-color: black;
+        border-radius: 220px;
+        margin: 0 auto;
+        border: 6px solid #FFC300 ; 
+        margin-bottom: 20px;
+    }
+    .social-icons{
+         /*Noktaları siliyoruz ...*/
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .social-icon{
+         /*Iconları yataylıyoruz */
+        display: inline;
+        padding-left: 5px;
+        padding-right: 5px;
+        /*Iconları Dairelerini oluşturalım */
+    }
+    .social-icon .fa{
+        border: 2px solid #000000;
+        height: 30px;
+        width: 30px;
+        border-radius: 30px;
+        line-height: 30px;
+    }
+    .team-p p{
+       margin: 50px auto;
+       padding-bottom: 20px;
+       font-family: 'MedievalSharp', cursive;
+       text-align: center;
+    }
+    #patner{
+
+        padding: 60px 0;
+        background-color: #EBF5FB; 
+        margin-bottom: 30px;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+    .Img{    
+        height: 200px;
+        width: 500px;
+    }
+    #Contact{    
+     padding: 60px 0;
+     background-color: #F2F3F4;
+     margin-bottom: 30px;
+     margin-left: 120px;
+     margin-right: 120px;     
+     background-size: cover;  
+     border-radius: 20px;   
+    }
+    .contant-top h4{    
+       font-family: 'Fredoka One', cursive;
+       font-size: 40px;
+       text-align: center;
+       margin-bottom: 70px; 
+    }
+    .contant-top p{    
+       margin: 20px auto;
+       padding-bottom: 20px;
+       font-family: 'MedievalSharp', cursive;
+       text-align: center;
+    }
+    #name , #email , #subject{
+        width: 90%;
+        height: 40px;
+        margin-bottom:  26px;    
+        border-style: none;
+        border-radius: 12px;
+        padding-left: 20px;
+        margin-left: 5%;
+    }
+    textarea{
+        width: 90%;
+        height: 170px;
+        border-style: none;
+        border-radius: 12px;
+        padding-left: 20px;
+        padding-top: 20px;
+        margin-left: 5%;
+    }
+    .golden-form-element{
+        font-family: 'Jua', sans-serif;
+        font-size: 22px;
+        color: black;    
+    }
+    #footer{    
+        padding: 20px 0;
+
+    }
+    #footer p{    
+        font-family: 'Cabin', sans-serif;
+        font-size: 20px;
+        font-weight:600px;
+        color: black;
+        line-height: 40px;
+    }
+    .company-social-icons{
+        /*Noktaları siliyoruz ...*/
+        list-style-type: none;
+        /*Bootstrap DEfault değerlerini sıfırlıyoruz */
+        margin: 0;
+        padding: 0;
+    }
+    .company-social-icon{
+        /*Iconları aynı satırda göstermek istediğimiz için ...*/
+        display: inline;
+        padding-left: 9px;
+        padding-right: 9px;
+        color: #2A9EE4;        
+    }
+    .company-social-icon .fa{
+        /* */
+        width: 40px;
+        height: 40px;
+        /*Daire şeklinde ayarlıyoruz */
+        border-radius: 40px;
+        background-color: #F2F3F4;
+        /*Iconları ortalamak için */
+        line-height: 40px;    
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
